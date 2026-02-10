@@ -1,0 +1,98 @@
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* Center whole calculator */
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Calculator box */
+.calculator {
+  background: #020617;
+  padding: 25px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+/* Title */
+.calculator h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Display */
+.display {
+  background: black;
+  color: #00ffcc;
+  font-size: 32px;
+  padding: 15px;
+  text-align: right;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  overflow-x: auto;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+/* Button style */
+button {
+  padding: 15px;
+  font-size: 18px;
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #334155;
+  transform: scale(1.05);
+}
+
+/* Operator buttons */
+.operator {
+  background: #6366f1;
+}
+
+.operator:hover {
+  background: #4f46e5;
+}
+
+/* Equal button */
+.equal {
+  background: #22c55e;
+}
+
+.equal:hover {
+  background: #16a34a;
+}
+
+/* Clear buttons */
+.clear {
+  background: #ef4444;
+}
+
+.clear:hover {
+  background: #dc2626;
+}
