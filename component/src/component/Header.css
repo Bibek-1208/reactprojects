@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: yellowgreen;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+
+}
+.a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+
+.b{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+     
+
+}
